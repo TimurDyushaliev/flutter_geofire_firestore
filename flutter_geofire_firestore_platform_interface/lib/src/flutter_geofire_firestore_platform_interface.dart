@@ -1,7 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'method_channel/flutter_geofire_firestore_method_channel.dart';
-import 'models/geo_query_bounds.dart';
+import '../flutter_geofire_firestore_platform_interface.dart';
 
 abstract class FlutterGeofireFirestorePlatform extends PlatformInterface {
   /// Constructs a FlutterGeofireFirestorePlatform.
