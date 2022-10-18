@@ -1,4 +1,4 @@
-# flutter_geofire_firestore
+# flutter_geofire_firestore_platform_interface
 
 A new Flutter plugin project.
 
