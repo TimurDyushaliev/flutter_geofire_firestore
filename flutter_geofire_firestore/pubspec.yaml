@@ -2,6 +2,8 @@ name: flutter_geofire_firestore
 description: A new Flutter plugin project.
 version: 0.0.1
 
+publish_to: 'none'
+
 environment:
   sdk: ">=2.18.2 <3.0.0"
   flutter: ">=2.5.0"
@@ -9,6 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_geofire_firestore_platform_interface:
+    git:
+      url: git@github.com:TimurDyushaliev/flutter_geofire_firestore.git
+      path: flutter_geofire_firestore_platform_interface
   
 
 dev_dependencies:
